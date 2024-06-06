@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kA5B4NuM51tT8pKutaISI/5YJYaw2tBl0CZmfw1TaH2r/QNrH1bsqkDQ14fS1numOM1AttVLkkmhlzGKzDxBpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leand\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}

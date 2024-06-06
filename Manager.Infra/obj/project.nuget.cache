@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nRjSaOA04L0rvkWFWDDz4qCmeA0nEf+p3O3PAeZtQNBM+eQGmlBlCz5jb+JsogkmrK6IPXlKlfnvFWLmnmekPw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Infra\\Manager.Infra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\leand\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}
