@@ -1,3 +1,4 @@
+using Manager.Core.Exceptions;
 using Manager.Domain.Validators;
 
 namespace Manager.Domain.Entities;
@@ -46,7 +47,7 @@ public class User : Base
             foreach (var error in validation.Errors)
                 _errors.Add(error.ErrorMessage);
 
-            throw new Exception("Alguns campos estão incorretos, por favor corrija-os!" + _errors[0]);
+            throw new DomainException("Alguns campos estão incorretos, por favor corrija-os!" + _errors);
         }
 
         return true;
