@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
       "projectName": "Manager.Domain",
-      "projectPath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj",
+      "projectPath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\obj\\",
+      "outputPath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"

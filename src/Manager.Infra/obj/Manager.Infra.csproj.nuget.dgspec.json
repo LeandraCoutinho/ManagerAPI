@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Infra\\Manager.Infra.csproj": {}
+    "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj": {
+    "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
         "projectName": "Manager.Domain",
-        "projectPath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj",
+        "projectPath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\obj\\",
+        "outputPath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Infra\\Manager.Infra.csproj": {
+    "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Infra\\Manager.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
         "projectName": "Manager.Infra",
-        "projectPath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Infra\\Manager.Infra.csproj",
+        "projectPath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Infra\\obj\\",
+        "outputPath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -99,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj": {
-                "projectPath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj"
+              "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj": {
+                "projectPath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj"
               }
             }
           }

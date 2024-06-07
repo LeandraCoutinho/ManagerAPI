@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r9O9k1+cpi7f9SVi+5NKD6iYS5/twhXjkV7FDpnog2gkFASo8UtU5wG7AZjQp6aAvkEnzqMxO4HXDfov6T45FA==",
+  "dgSpecHash": "y/+a2WIjsnOuJ+mYG8FCBS+046JS9ePJm3JdjZgBv/XGbwWLMU4gLQxCGqckkbwSZikHzbN74C0EYZGYh6TzZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Domain\\Manager.Domain.csproj",
+  "projectFilePath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leand\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\leand\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",

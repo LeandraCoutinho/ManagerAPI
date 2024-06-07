@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yQsJhlXzhF8oYOVPPKAZRsQ6l9Bao+nmCiPY+IyeZmk9gVMFVR9doFan8rVT8MoigZ3wis2e3U2Wu6+H1hT5Xg==",
+  "dgSpecHash": "rgH3QBXtEMBmC2Z4Fnc2jawoZizTBoDrg2mmbW3Mn0A2KEvkGhIfPPgshxI0Lud5qf126ZEuvxv1QspGWcOuqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Infra\\Manager.Infra.csproj",
+  "projectFilePath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Infra\\Manager.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leand\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\leand\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

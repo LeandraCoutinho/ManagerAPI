@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b0mYsTFpIN5jt7QNmJZvdzNRceulXI+CIH7czHoGjY37gIAvDvQfhMqO4ZGvT1KZK5qKFqVnLvURawC1WJg70g==",
+  "dgSpecHash": "dRjRTVw5Vuc2/Pd/eM68Uv3sLCyAOqvKsGU5utOqmMTNh2b/g/YB6RCblTOaHZK66z9elp+Rc4KGTrwtvXi+VA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leand\\RiderProjects\\Manager\\Manager.Services\\Manager.Services.csproj",
+  "projectFilePath": "C:\\Users\\leand\\RiderProjects\\Manager\\src\\Manager.Services\\Manager.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leand\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
     "C:\\Users\\leand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
