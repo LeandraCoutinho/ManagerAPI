@@ -25,7 +25,7 @@ public class UserValidator : AbstractValidator<User>
             .WithMessage("O nome deve ter no mínimo 3 caracteres.")
 
             .MaximumLength(80)
-            .WithMessage("O nome deve ter no máximo 80 caracteres");
+            .WithMessage("O nome deve ter no máximo 80 caracteres.");
 
         RuleFor(x => x.Email)
             .NotNull()

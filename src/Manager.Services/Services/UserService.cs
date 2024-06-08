@@ -37,14 +37,14 @@ public class UserService : IUserService
     {
         var userExists = await _userRepository.Get(userDto.Id);
 
-        if (userExists != null)
+        if (userExists == null)
             throw new DomainException("Não existe nenhum usuário com o id informado.");
 
         var user = _mapper.Map<User>(userDto);
 
-        var userUpdate = await _userRepository.Update(user);
+        var userUpdated = await _userRepository.Update(user);
 
-        return _mapper.Map<UserDTO>(userUpdate);
+        return _mapper.Map<UserDTO>(userUpdated);
     }
 
     public async Task Remove(long id)
@@ -61,7 +61,7 @@ public class UserService : IUserService
 
     public async Task<List<UserDTO>> Get()
     {
-        var allUsers = await _userRepository.GetTask();
+        var allUsers = await _userRepository.Get();
 
         return _mapper.Map<List<UserDTO>>(allUsers);
     }
@@ -75,15 +75,15 @@ public class UserService : IUserService
 
     public async Task<List<UserDTO>> SearchByEmail(string email)
     {
-        var allUsers = await _userRepository.SearchByName(email);
+        var allUsers = await _userRepository.SearchByEmail(email);
 
         return _mapper.Map<List<UserDTO>>(allUsers);
     }
 
     public async Task<UserDTO> GetByEmail(string email)
     {
-        var allUsers = await _userRepository.SearchByName(email);
+        var user = await _userRepository.GetByEmail(email);
 
-        return _mapper.Map<UserDTO>(allUsers);
+        return _mapper.Map<UserDTO>(user);
     }
 }

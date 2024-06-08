@@ -49,7 +49,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : Base
         return obj.FirstOrDefault();
     }
 
-    public virtual async Task<List<T>> GetTask()
+    public virtual async Task<List<T>> Get()
     {
         return await _context.Set<T>()
             .AsNoTracking()

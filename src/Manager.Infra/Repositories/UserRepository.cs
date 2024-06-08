@@ -28,7 +28,7 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         return user.FirstOrDefault();
     }
 
-    public override async Task<List<User>> GetTask()
+    public override async Task<List<User>> Get()
     {
         var alluser = await _context.Users.AsNoTracking().ToListAsync();
         return alluser;
@@ -41,6 +41,7 @@ public class UserRepository : BaseRepository<User>, IUserRepository
             (
                 x => x.Email.ToLower() == email.ToLower()
             )
+            .AsNoTracking()
             .ToListAsync();
 
         return user.FirstOrDefault();
@@ -64,7 +65,7 @@ public class UserRepository : BaseRepository<User>, IUserRepository
         var allUsers = await _context.Users
             .Where
             (
-                x => x.Email.ToLower().Contains(name.ToLower())
+                x => x.Name.ToLower().Contains(name.ToLower())
             )
             .AsNoTracking()
             .ToListAsync();

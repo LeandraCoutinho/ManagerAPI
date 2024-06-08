@@ -8,5 +8,5 @@ public interface IBaseRepository<T> where T : Base // usa-se T pra pegar toda en
     Task<T> Update(T obj);
     Task Remove(long id);
     Task<T?> Get(long id);
-    Task<List<T>> GetTask();
+    Task<List<T>> Get();
 }

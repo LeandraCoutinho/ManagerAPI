@@ -1,0 +1,12 @@
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\bin\Debug\net6.0\Manager.Core.deps.json
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\bin\Debug\net6.0\Manager.Core.dll
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\bin\Debug\net6.0\Manager.Core.pdb
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.AssemblyInfoInputs.cache
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.AssemblyInfo.cs
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.csproj.CoreCompileInputs.cache
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.sourcelink.json
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.dll
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\refint\Manager.Core.dll
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\Manager.Core.pdb
+C:\Users\leand\RiderProjects\Manager\src\Manager.Core\obj\Debug\net6.0\ref\Manager.Core.dll
