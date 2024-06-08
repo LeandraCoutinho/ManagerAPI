@@ -4,6 +4,7 @@ using Manager.API.ViewModels;
 using Manager.Core.Exceptions;
 using Manager.Services.DTO;
 using Manager.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Manager.API.Controllers;
@@ -21,6 +22,7 @@ public class UserController : ControllerBase
         _mapper = mapper;
     }
 
+    [Authorize]
     [HttpPost]
     [Route("/api/v1/users/create")]
     public async Task<IActionResult> Create([FromBody] CreateUserViewModel userViewModel)
@@ -46,6 +48,7 @@ public class UserController : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpPut]
     [Route("/api/v1/users/update")]
     public async Task<IActionResult> Update([FromBody] UpdateUserViewModel userViewModel)
@@ -71,6 +74,7 @@ public class UserController : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpDelete]
     [Route("/api/v1/users/remove{id}")]
     public async Task<IActionResult> Remove(long id)
@@ -95,6 +99,7 @@ public class UserController : ControllerBase
         }
     }
 
+    [Authorize]
     [HttpGet]
     [Route("/api/v1/users/get/{id}")]
     public async Task<IActionResult> Get(long id)
@@ -128,7 +133,8 @@ public class UserController : ControllerBase
         }
     }
     
-    [HttpGet]
+        [Authorize]
+        [HttpGet]
         [Route("/api/v1/users/get-all")]
         public async Task<IActionResult> Get()
         {
@@ -156,6 +162,7 @@ public class UserController : ControllerBase
 
         }
 
+        [Authorize]
         [HttpGet]
         [Route("/api/v1/users/get-by-email")]
         public async Task<IActionResult> GetByEmail([FromQuery] string email)
@@ -191,6 +198,7 @@ public class UserController : ControllerBase
 
         }
 
+        [Authorize]
         [HttpGet]
         [Route("/api/v1/users/search-by-name")]
         public async Task<IActionResult> SearchByName([FromQuery] string name)
@@ -225,7 +233,8 @@ public class UserController : ControllerBase
             }
 
         }
-
+        
+        [Authorize]
         [HttpGet]
         [Route("/api/v1/users/search-by-email")]
         public async Task<IActionResult> SearchByEmail([FromQuery] string email)
@@ -258,6 +267,5 @@ public class UserController : ControllerBase
             {
                 return StatusCode(500, Responses.ApplicationErrorMessage());
             }
-
         }
 }
